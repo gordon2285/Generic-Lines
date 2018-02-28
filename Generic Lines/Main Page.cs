@@ -12,8 +12,8 @@ namespace Generic_Lines
     {
         private void Button1_MouseClick(object sender, MouseEventArgs e)
         {
-            soccer_lines SoccerLinesWindow;
-            SoccerLinesWindow = new soccer_lines();
+            Soccer_Lines SoccerLinesWindow;
+            SoccerLinesWindow = new Soccer_Lines();
             SoccerLinesWindow.SoccerLinesHandicap.Text = SoccerLinesCalcs.SoccerHandicap(-3, 3);
             SoccerLinesWindow.SoccerLinesTotal.Text = SoccerLinesCalcs.SoccerTotal(9, 14);
             SoccerLinesWindow.ShowDialog();
