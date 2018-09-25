@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Generic_Lines"
         mc:Ignorable="d"
         Title="Soccer Lines" Height="276.923" Width="421.154">
+        Title="Soccer Lines" Height="276.923" Width="421.154">
     <Grid Margin="0,0,-8,-1">
         <Label Content="Handicap:" HorizontalAlignment="Left" Margin="37,54,0,0" VerticalAlignment="Top"/>
         <Label Content="Total:" HorizontalAlignment="Left" Margin="218,54,0,0" VerticalAlignment="Top"/>

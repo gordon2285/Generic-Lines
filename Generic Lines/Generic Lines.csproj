@@ -61,6 +61,9 @@
       <DependentUpon>Soccer_Lines.xaml</DependentUpon>
     </Compile>
     <Compile Include="TennisLinesCalcs.cs" />
+    <Compile Include="Tennis_Lines.xaml.cs">
+      <DependentUpon>Tennis_Lines.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,6 +78,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Soccer_Lines.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tennis_Lines.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

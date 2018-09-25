@@ -21,8 +21,8 @@ namespace Generic_Lines
 
         private void Soccer_HFav_NTot_Click(object sender, EventArgs e)
         {
-            soccer_lines SoccerLinesWindow;
-            SoccerLinesWindow = new soccer_lines();
+            Soccer_Lines SoccerLinesWindow;
+            SoccerLinesWindow = new Soccer_Lines();
             SoccerLinesWindow.SoccerLinesHandicap.Text = SoccerLinesCalcs.SoccerHandicap(-8, -3);
             SoccerLinesWindow.SoccerLinesTotal.Text = SoccerLinesCalcs.SoccerTotal(11, 14);
             SoccerLinesWindow.ShowDialog();
@@ -30,8 +30,8 @@ namespace Generic_Lines
 
         private void Soccer_AFav_NTot_Click(object sender, EventArgs e)
         {
-            soccer_lines SoccerLinesWindow;
-            SoccerLinesWindow = new soccer_lines();
+            Soccer_Lines SoccerLinesWindow;
+            SoccerLinesWindow = new Soccer_Lines();
             SoccerLinesWindow.SoccerLinesHandicap.Text = SoccerLinesCalcs.SoccerHandicap(3, 8);
             SoccerLinesWindow.SoccerLinesTotal.Text = SoccerLinesCalcs.SoccerTotal(11, 14);
             SoccerLinesWindow.ShowDialog();
@@ -39,8 +39,8 @@ namespace Generic_Lines
 
         private void Soccer_HFav_HTot_Click(object sender, EventArgs e)
         {
-            soccer_lines SoccerLinesWindow;
-            SoccerLinesWindow = new soccer_lines();
+            Soccer_Lines SoccerLinesWindow;
+            SoccerLinesWindow = new Soccer_Lines();
             SoccerLinesWindow.SoccerLinesHandicap.Text = SoccerLinesCalcs.SoccerHandicap(-8, -3);
             SoccerLinesWindow.SoccerLinesTotal.Text = SoccerLinesCalcs.SoccerTotal(16, 24);
             SoccerLinesWindow.ShowDialog();
@@ -48,8 +48,8 @@ namespace Generic_Lines
 
         private void Soccer_AFav_HTot_Click(object sender, EventArgs e)
         {
-            soccer_lines SoccerLinesWindow;
-            SoccerLinesWindow = new soccer_lines();
+            Soccer_Lines SoccerLinesWindow;
+            SoccerLinesWindow = new Soccer_Lines();
             SoccerLinesWindow.SoccerLinesHandicap.Text = SoccerLinesCalcs.SoccerHandicap(3, 8);
             SoccerLinesWindow.SoccerLinesTotal.Text = SoccerLinesCalcs.SoccerTotal(16, 24);
             SoccerLinesWindow.ShowDialog();
