@@ -18,7 +18,7 @@ namespace Generic_Lines
         //converting to string as going in text box and was moaning about error converting from decimal to string
         private static decimal SoccerTotalString(int c, int d, Random rnd2)
         {
-            return (rnd2.Next(c, d)) / 4;
+            return rnd2.Next(c, d) / 4;
         }
     }
 }

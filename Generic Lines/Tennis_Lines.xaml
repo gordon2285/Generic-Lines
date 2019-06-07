@@ -3,12 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Generic_Lines"
         mc:Ignorable="d"
         Title="Tennis_Lines" Height="450" Width="800">
     <Grid>
-        <Grid HorizontalAlignment="Left" Height="388" Margin="10,10,0,0" VerticalAlignment="Top" Width="772"/>
-        //add in tennis text boxes to return %s 
+        <Label x:Name="Player_B_Serve_Label" Content="Player B Serve %:" HorizontalAlignment="Left" Margin="117,195,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="P1PercentageBox" HorizontalAlignment="Left" Height="23" Margin="237,138,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.454,0.503"/>
+        <Label x:Name="Player_A_Serve__Label" Content="Player A Serve %:" HorizontalAlignment="Left" Margin="127,141,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="P2PercentageBox" HorizontalAlignment="Left" Height="23" Margin="237,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <!--add in tennis text boxes to return %s--> 
 
     </Grid>
 </Window>

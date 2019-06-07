@@ -57,20 +57,20 @@ namespace Generic_Lines
 
         private void Tennis_MGrass_P1_Click(object sender, EventArgs e)
         {
-            Tennis_Lines_Window Tennis_Lines;
-            Tennis_Lines = new Tennis_Lines_Window();
-            Tennis_Lines.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(630, 700);
-            Tennis_Lines.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(550, 600);
-            Tennis_Lines.ShowDialog();
+            Tennis_Lines TennisLinesWindow;
+            TennisLinesWindow = new Tennis_Lines();
+            TennisLinesWindow.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(630, 700);
+            TennisLinesWindow.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(550, 600);
+            TennisLinesWindow.ShowDialog();
         }
 
         private void Tennis_MGrass_Avg_Click(object sender, EventArgs e)
         {
-            Tennis_Lines_Window Tennis_Lines;
-            Tennis_Lines = new Tennis_Lines_Window();
-            Tennis_Lines.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(580, 640);
-            Tennis_Lines.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(580, 640);
-            Tennis_Lines.ShowDialog();
+            Tennis_Lines TennisLinesWindow;
+            TennisLinesWindow = new Tennis_Lines();
+            TennisLinesWindow.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(580, 640);
+            TennisLinesWindow.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(580, 640);
+            TennisLinesWindow.ShowDialog();
         }
 
         private void Tennis_MGrass_P2_Click(object sender, EventArgs e)
@@ -308,5 +308,6 @@ namespace Generic_Lines
             }
         }
     }
+}
 
 
