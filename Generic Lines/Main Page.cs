@@ -167,63 +167,63 @@ namespace Generic_Lines
         {
             Tennis_Lines TennisLinesWindow;
             TennisLinesWindow = new Tennis_Lines();
-            Tennis_Lines.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(580, 630);
-            Tennis_Lines.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(500, 550);
-            Tennis_Lines.ShowDialog();
+            TennisLinesWindow.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(580, 630);
+            TennisLinesWindow.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(500, 550);
+            TennisLinesWindow.ShowDialog();
         }
 
         private void Tennis_WHard_Avg_Click(object sender, EventArgs e)
         {
             Tennis_Lines TennisLinesWindow;
             TennisLinesWindow = new Tennis_Lines();
-            Tennis_Lines.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(550, 600);
-            Tennis_Lines.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(550, 600);
-            Tennis_Lines.ShowDialog();
+            TennisLinesWindow.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(550, 600);
+            TennisLinesWindow.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(550, 600);
+            TennisLinesWindow.ShowDialog();
         }
 
         private void Tennis_WHard_P2_Click(object sender, EventArgs e)
         {
             Tennis_Lines TennisLinesWindow;
             TennisLinesWindow = new Tennis_Lines();
-            Tennis_Lines.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(500, 550);
-            Tennis_Lines.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(580, 630);
-            Tennis_Lines.ShowDialog();
+            TennisLinesWindow.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(500, 550);
+            TennisLinesWindow.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(580, 630);
+            TennisLinesWindow.ShowDialog();
         }
 
         private void Tennis_WClay_P1_Click(object sender, EventArgs e)
         {
             Tennis_Lines TennisLinesWindow;
             TennisLinesWindow = new Tennis_Lines();
-            Tennis_Lines.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(530, 580);
-            Tennis_Lines.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(450, 500);
-            Tennis_Lines.ShowDialog();
+            TennisLinesWindow.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(530, 580);
+            TennisLinesWindow.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(450, 500);
+            TennisLinesWindow.ShowDialog();
         }
 
         private void Tennis_WClay_Avg_Click(object sender, EventArgs e)
         {
             Tennis_Lines TennisLinesWindow;
             TennisLinesWindow = new Tennis_Lines();
-            Tennis_Lines.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(500, 550);
-            Tennis_Lines.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(500, 550);
-            Tennis_Lines.ShowDialog();
+            TennisLinesWindow.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(500, 550);
+            TennisLinesWindow.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(500, 550);
+            TennisLinesWindow.ShowDialog();
         }
 
         private void Tennis_WClay_P2_Click(object sender, EventArgs e)
         {
             Tennis_Lines TennisLinesWindow;
             TennisLinesWindow = new Tennis_Lines();
-            Tennis_Lines.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(450, 500);
-            Tennis_Lines.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(530, 580);
-            Tennis_Lines.ShowDialog();
+            TennisLinesWindow.P1PercentageBox.Text = TennisLinesCalcs.ServePercentageP1(450, 500);
+            TennisLinesWindow.P2PercentageBox.Text = TennisLinesCalcs.ServePercentageP2(530, 580);
+            TennisLinesWindow.ShowDialog();
         }
 
         private void Basketball_SmHmFav_LoTot_Click(object sender, EventArgs e)
         {
-            Basketball_Lines_Window Basketball_Lines;
-            Basketball_Lines = new Basketball_Lines_Window();
-            Basketball_Lines.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(0, 20);
-            Basketball_Lines.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(220, 280);
-            Basketball_Lines.ShowDialog();
+            Basketball_Lines Basketball_Lines_Window;
+            Basketball_Lines_Windo = new Basketball_Lines();
+            Basketball_Lines_Windo.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(0, 20);
+            Basketball_Lines_Windo.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(220, 280);
+            Basketball_Lines_Windo.ShowDialog();
         }
 
         private void Basketball_SmAwFav_LoTot_Click(object sender, EventArgs e)
@@ -287,25 +287,6 @@ namespace Generic_Lines
             Basketball_Lines.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(-100, -30);
             Basketball_Lines.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(350, 430);
             Basketball_Lines.ShowDialog();
-        }
-
-        private void SportSelectBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if ((SportSelectBox.SelectedItem == "Soccer"))
-            {
-                Soccer_Panel.BringToFront();
-                Soccer_Panel.Visible = true;
-            }
-            else if ((SportSelectBox.SelectedItem == "Tennis"))
-            {
-                Tennis_Panel.BringToFront();
-                Tennis_Panel.Visible = true;
-            }
-            else if ((SportSelectBox.SelectedItem == "Basketball"))
-            {
-                Basketball_Panel.BringToFront();
-                Basketball_Panel.Visible = true;
-            }
         }
     }
 }

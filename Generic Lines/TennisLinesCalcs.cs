@@ -8,12 +8,14 @@ namespace Generic_Lines
 
         public static string ServePercentageP1(int low, int high)
         {
-            return ((rnd.Next(low, high)) / 10);
+            Random rnd = new Random();
+            return ((rnd.Next(low, high)) / 10).ToString();
         }
 
         public static string ServePercentageP2(int low, int high)
         {
-            return ((rnd.Next(low, high)) / 10);
+            Random rnd = new Random();
+            return ((rnd.Next(low, high)) / 10).ToString();
         }
     }
 }
