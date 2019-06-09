@@ -4,13 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Tennis_Lines" Height="450" Width="800">
+        Title="Tennis_Lines" Height="266.076" Width="394.142">
     <Grid>
-        <Label x:Name="Player_B_Serve_Label" Content="Player B Serve %:" HorizontalAlignment="Left" Margin="117,195,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="P1PercentageBox" HorizontalAlignment="Left" Height="23" Margin="237,138,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.454,0.503"/>
-        <Label x:Name="Player_A_Serve__Label" Content="Player A Serve %:" HorizontalAlignment="Left" Margin="127,141,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="P2PercentageBox" HorizontalAlignment="Left" Height="23" Margin="237,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <!--add in tennis text boxes to return %s--> 
+        <Label x:Name="Player_B_Serve_Label" Content="Player B Serve %:" HorizontalAlignment="Left" Margin="73,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.028,-1.795"/>
+        <TextBox x:Name="P1PercentageBox" HorizontalAlignment="Left" Height="23" Margin="192,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.454,0.503"/>
+        <Label x:Name="Player_A_Serve__Label" Content="Player A Serve %:" HorizontalAlignment="Left" Margin="73,71,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="P2PercentageBox" HorizontalAlignment="Left" Height="23" Margin="192,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <!--add in tennis text boxes to return %s-->
 
     </Grid>
 </Window>

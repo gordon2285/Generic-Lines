@@ -6,88 +6,88 @@
         xmlns:local="clr-namespace:Generic_Lines"
         mc:Ignorable="d"
         Title="Generic Lines" Height="650" Width="650">
-        <Grid>
-            <Canvas x:Name="Soccer_Panel" Height="400" Margin="120.5,105,120.331,0" VerticalAlignment="Top" Width="400" HorizontalAlignment="Center" Visibility="Hidden">
-                <Button x:Name="Soccer_StandardMatch" Content="Standard Match" Canvas.Left="128.114" Canvas.Top="55.159" Width="108.808"/>
-                <Button x:Name="Soccer_LrgHmFav_StdTot" Content="Large Home Fav /&#xA; Standard Total" Canvas.Left="55.16" Canvas.Top="129.892" Width="117.704" Height="51.989" HorizontalAlignment="Center"/>
-                <Button x:Name="Soccer_LegAwFav_StdTot" Content="Large Away Fav /&#xA; Standard Total" Canvas.Left="236.922" Canvas.Top="129.892" Width="94.573" Height="51.989" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Button x:Name="Soccer_LrgHmFav_LrgTot" Content="Large Home Fav /&#xA; Large Total" Canvas.Left="55.16" Canvas.Top="227.757" Width="117.704" Height="50.209" HorizontalAlignment="Center"/>
-                <Button x:Name="Soccer_LrgAwFav_LrgTot" Content="Large Away Fav /&#xA; Large Total" Canvas.Left="236.922" Canvas.Top="227.757" Width="94.573" Height="50.209" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Canvas>
-            <ComboBox HorizontalAlignment="Left" Margin="292.727,60.188,0,0" VerticalAlignment="Top" Width="120">
-                <ComboBoxItem Content="American Football" HorizontalAlignment="Left" Width="118"/>
-                <ComboBoxItem Content="Ausse Rules" HorizontalAlignment="Left" Width="118"/>
-                <ComboBoxItem Content="Basketball" HorizontalAlignment="Left" Width="118"/>
-                <ComboBoxItem Content="Soccer" HorizontalAlignment="Left" Width="118"/>
-                <ComboBoxItem Content="Tennis" HorizontalAlignment="Left" Width="118"/>
-            </ComboBox>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="167.727,60.188,0,0" TextWrapping="Wrap" Text="Select a sport:" VerticalAlignment="Top" Width="120" TextAlignment="Right"/>
-            <Canvas x:Name="Basketball_Panel" Margin="120.5,105,242,219" Width="400" Height="400" Visibility="Hidden">
-                <Button x:Name="Basketball_LrgAwFav_LrgTot" Content="Large Away Fav /&#xA; High Total" HorizontalAlignment="Left" VerticalAlignment="Top" Width="108" Canvas.Left="51" Canvas.Top="38" Height="46"/>
-                <Button x:Name="Basketball_LrgHmFav_LrgTot" Content="Large Home Fav /&#xA; High Total" Canvas.Left="214" Canvas.Top="38" Width="111" Height="46" RenderTransformOrigin="0.489,0.231" HorizontalAlignment="Center"/>
-                <Button x:Name="Basketball_LrgAwFav_LowTot" Content="Large Away Fav /&#xA; Low Total" Canvas.Left="51" Canvas.Top="99" Width="108"/>
-                <Button x:Name="Basketball_LrgHmFav_LowTot" Content="Large Home Fav /&#xA; Low Total" Canvas.Left="214" Canvas.Top="99" Width="111"/>
-                <Button x:Name="Basketball_SmAwFav_LrgTot" Content="Small Away Fav /&#xA; High Total" Canvas.Left="51" Canvas.Top="162" Width="108"/>
-                <Button x:Name="Basketball_SmHmFav_LrgTot" Content="Small Home Fav /&#xA; High Total" Canvas.Left="214" Canvas.Top="162" Width="111"/>
-                <Button x:Name="Basketball_SmAwFav_LowTot" Content="Small Away Fav /&#xA; Low Total" Canvas.Left="51" Canvas.Top="227" Width="108" RenderTransformOrigin="-0.066,0.488"/>
-                <Button x:Name="Basketball_SmHmFav_LowTot" Content="Small Home Fav /&#xA; Low Total" Canvas.Left="214" Canvas.Top="227" Width="111" RenderTransformOrigin="0.036,0.531"/>
-            </Canvas>
-            <Canvas x:Name="Tennis_Panel" HorizontalAlignment="Left" Height="400" Margin="120,118,0,0" VerticalAlignment="Top" Width="400" RenderTransformOrigin="-0.048,0.026" Visibility="Hidden">
-                <Button x:Name="Tennis_MGrass_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="63" Width="74" RenderTransformOrigin="-0.112,0.459"/>
-                <Button x:Name="Tennis_MGrass_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="63" Width="75" RenderTransformOrigin="0.359,-0.853"/>
-                <Button x:Name="Tennis_MGrass_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="63" Width="75" RenderTransformOrigin="0.036,-0.931"/>
-                <Button x:Name="Tennis_MClay_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="107" Width="75"/>
-                <Button x:Name="Tennis_MClay_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="107" Width="75"/>
-                <Button x:Name="Tennis_MClay_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="107" Width="75"/>
-                <Button x:Name="Tennis_MHard_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="150" Width="75"/>
-                <Button x:Name="Tennis_MHard_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="150" Width="75"/>
-                <Button x:Name="Tennis_MHard_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="150" Width="75"/>
-                <Button x:Name="Tennis_WGrass_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="235" Width="75"/>
-                <Button x:Name="Tennis_WClay_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="278" Width="75"/>
-                <Button x:Name="Tennis_WHard_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="319" Width="75"/>
-                <Button x:Name="Tennis_WGrass_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="235" Width="75"/>
-                <Button x:Name="Tennis_WClay_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="278" Width="75"/>
-                <Button x:Name="Tennis_WHard_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="319" Width="75"/>
-                <Button x:Name="Tennis_WGrass_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="235" Width="75"/>
-                <Button x:Name="Tennis_WClay_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="278" Width="75"/>
-                <Button x:Name="Tennis_WHard_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="319" Width="75"/>
-                <Label x:Name="Men_Grass_Label" Content="Grass" Canvas.Left="64" Canvas.Top="63"/>
-                <Label x:Name="Men_Clay_Label" Content="Clay" Canvas.Left="64" Canvas.Top="107"/>
-                <Label x:Name="Men_Hard_Label" Content="Hard" Canvas.Left="64" Canvas.Top="150"/>
-                <Label x:Name="Women_Grass_Label" Content="Grass" Canvas.Left="64" Canvas.Top="235"/>
-                <Label x:Name="Women_Clay_Label" Content="Clay" Canvas.Left="64" Canvas.Top="278"/>
-                <Label x:Name="Women_Hard_Label" Content="Hard" Canvas.Left="64" Canvas.Top="319"/>
-                <Label x:Name="Men_label" Content="Men" Canvas.Left="13" Canvas.Top="110" RenderTransformOrigin="0.969,0.624">
-                    <Label.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform Angle="-89.89"/>
-                            <TranslateTransform X="-14.564" Y="-21.04"/>
-                        </TransformGroup>
-                    </Label.RenderTransform>
-                </Label>
-                <Label x:Name="Women_Label" Content="Women" Canvas.Left="13" Canvas.Top="281" RenderTransformOrigin="0.5,0.5">
-                    <Label.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform Angle="-88.938"/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </Label.RenderTransform>
-                </Label>
-            </Canvas>
-            <Canvas x:Name="AmericanFootball_Panel" HorizontalAlignment="Left" Height="400" Margin="121,132,0,0" VerticalAlignment="Top" Width="400">
-                <Button x:Name="AmFt" Content="Team 1 Fav /&#xA; Normal Total" Canvas.Left="58" Canvas.Top="46" Width="105" Height="51"/>
-                <Button Content="Team 2 Fav /&#xA; Normal Total" Canvas.Left="206" Canvas.Top="46" Width="117" Height="51"/>
-                <Button Content="Large Team 1 Fav /&#xA; Normal Total" Canvas.Left="58" Canvas.Top="113" Width="105" Height="63"/>
-                <Button Content="Large Team 2 Fav /&#xA; Normal Total" Canvas.Left="206" Canvas.Top="113" Width="117" Height="63"/>
-                <Button Content="Team 1 Fav /&#xA; Large Total" Canvas.Left="58" Canvas.Top="185" Width="105" Height="52"/>
-                <Button Content="Team 2 Fav /&#xA; Large Total" Canvas.Left="206" Canvas.Top="185" Width="117" Height="52"/>
-                <Button Content="Large Team 1 Fav /&#xA; Large Total" Canvas.Left="58" Canvas.Top="257" Width="105" Height="59"/>
-                <Button Content="Large Team 2 Fav /&#xA; Large Total" Canvas.Left="206" Canvas.Top="257" Width="117" Height="59"/>
-            </Canvas>
+    <Grid>
+        <Canvas x:Name="AmericanFootball_Panel" HorizontalAlignment="Left" Height="400" Margin="121,132,0,0" VerticalAlignment="Top" Width="400" Visibility="Hidden">
+            <Button x:Name="AmFt" Content="Team 1 Fav /&#xA; Normal Total" Canvas.Left="10" Canvas.Top="46" Width="182" Height="51"/>
+            <Button Content="Team 2 Fav /&#xA; Normal Total" Canvas.Left="206" Canvas.Top="46" Width="184" Height="51"/>
+            <Button Content="Large Team 1 Fav /&#xA; Normal Total" Canvas.Left="10" Canvas.Top="113" Width="182" Height="63"/>
+            <Button Content="Large Team 2 Fav /&#xA; Normal Total" Canvas.Left="206" Canvas.Top="113" Width="184" Height="63"/>
+            <Button Content="Team 1 Fav /&#xA; Large Total" Canvas.Left="10" Canvas.Top="185" Width="182" Height="52"/>
+            <Button Content="Team 2 Fav /&#xA; Large Total" Canvas.Left="206" Canvas.Top="185" Width="184" Height="52"/>
+            <Button Content="Large Team 1 Fav /&#xA; Large Total" Canvas.Left="10" Canvas.Top="257" Width="182" Height="59"/>
+            <Button Content="Large Team 2 Fav /&#xA; Large Total" Canvas.Left="206" Canvas.Top="257" Width="184" Height="59"/>
+        </Canvas>
+        <Canvas x:Name="Soccer_Panel" Height="400" Margin="120.5,105,120.331,0" VerticalAlignment="Top" Width="400" HorizontalAlignment="Center" Visibility="Hidden">
+            <Button x:Name="Soccer_StandardMatch" Content="Standard Match" Canvas.Left="128" Canvas.Top="29" Width="145" Height="61"/>
+            <Button x:Name="Soccer_LrgHmFav_StdTot" Content="Large Home Fav /&#xA; Standard Total" Canvas.Left="10" Canvas.Top="130" Width="182" Height="52" HorizontalAlignment="Center"/>
+            <Button x:Name="Soccer_LegAwFav_StdTot" Content="Large Away Fav /&#xA; Standard Total" Canvas.Left="208" Canvas.Top="130" Width="182" Height="52" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button x:Name="Soccer_LrgHmFav_LrgTot" Content="Large Home Fav /&#xA; Large Total" Canvas.Left="10" Canvas.Top="228" Width="182" Height="50" HorizontalAlignment="Center"/>
+            <Button x:Name="Soccer_LrgAwFav_LrgTot" Content="Large Away Fav /&#xA; Large Total" Canvas.Left="208" Canvas.Top="228" Width="182" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Canvas>
+        <ComboBox HorizontalAlignment="Left" Margin="292.727,60.188,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="American Football" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Ausse Rules" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Basketball" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Soccer" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Tennis" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="167.727,60.188,0,0" TextWrapping="Wrap" Text="Select a sport:" VerticalAlignment="Top" Width="120" TextAlignment="Right"/>
+        <Canvas x:Name="Basketball_Panel" Margin="120.5,105,242,219" Width="400" Height="400">
+            <Button x:Name="Basketball_LrgAwFav_LrgTot" Content="Large Away Fav /&#xA; High Total" HorizontalAlignment="Left" VerticalAlignment="Top" Width="183" Canvas.Left="10" Canvas.Top="38" Height="46"/>
+            <Button x:Name="Basketball_LrgHmFav_LrgTot" Content="Large Home Fav /&#xA; High Total" Canvas.Left="214" Canvas.Top="38" Width="176" Height="46" RenderTransformOrigin="0.489,0.231" HorizontalAlignment="Center"/>
+            <Button x:Name="Basketball_LrgAwFav_LowTot" Content="Large Away Fav /&#xA; Low Total" Canvas.Left="10" Canvas.Top="99" Width="183"/>
+            <Button x:Name="Basketball_LrgHmFav_LowTot" Content="Large Home Fav /&#xA; Low Total" Canvas.Left="214" Canvas.Top="99" Width="176"/>
+            <Button x:Name="Basketball_SmAwFav_LrgTot" Content="Small Away Fav /&#xA; High Total" Canvas.Left="10" Canvas.Top="162" Width="183"/>
+            <Button x:Name="Basketball_SmHmFav_LrgTot" Content="Small Home Fav /&#xA; High Total" Canvas.Left="214" Canvas.Top="162" Width="176"/>
+            <Button x:Name="Basketball_SmAwFav_LowTot" Content="Small Away Fav /&#xA; Low Total" Canvas.Left="10" Canvas.Top="227" Width="183" RenderTransformOrigin="-0.066,0.488"/>
+            <Button x:Name="Basketball_SmHmFav_LowTot" Content="Small Home Fav /&#xA; Low Total" Canvas.Left="214" Canvas.Top="227" Width="176" RenderTransformOrigin="0.036,0.531"/>
+        </Canvas>
+        <Canvas x:Name="Tennis_Panel" HorizontalAlignment="Left" Height="400" Margin="120,118,0,0" VerticalAlignment="Top" Width="400" RenderTransformOrigin="-0.048,0.026" Visibility="Hidden">
+            <Button x:Name="Tennis_MGrass_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="63" Width="74" RenderTransformOrigin="-0.112,0.459"/>
+            <Button x:Name="Tennis_MGrass_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="63" Width="75" RenderTransformOrigin="0.359,-0.853"/>
+            <Button x:Name="Tennis_MGrass_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="63" Width="75" RenderTransformOrigin="0.036,-0.931"/>
+            <Button x:Name="Tennis_MClay_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="107" Width="75"/>
+            <Button x:Name="Tennis_MClay_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="107" Width="75"/>
+            <Button x:Name="Tennis_MClay_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="107" Width="75"/>
+            <Button x:Name="Tennis_MHard_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="150" Width="75"/>
+            <Button x:Name="Tennis_MHard_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="150" Width="75"/>
+            <Button x:Name="Tennis_MHard_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="150" Width="75"/>
+            <Button x:Name="Tennis_WGrass_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="235" Width="75"/>
+            <Button x:Name="Tennis_WClay_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="278" Width="75"/>
+            <Button x:Name="Tennis_WHard_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="319" Width="75"/>
+            <Button x:Name="Tennis_WGrass_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="235" Width="75"/>
+            <Button x:Name="Tennis_WClay_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="278" Width="75"/>
+            <Button x:Name="Tennis_WHard_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="319" Width="75"/>
+            <Button x:Name="Tennis_WGrass_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="235" Width="75"/>
+            <Button x:Name="Tennis_WClay_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="278" Width="75"/>
+            <Button x:Name="Tennis_WHard_P2" Content="P2 Big Fav" Canvas.Left="315" Canvas.Top="319" Width="75"/>
+            <Label x:Name="Men_Grass_Label" Content="Grass" Canvas.Left="64" Canvas.Top="63"/>
+            <Label x:Name="Men_Clay_Label" Content="Clay" Canvas.Left="64" Canvas.Top="107"/>
+            <Label x:Name="Men_Hard_Label" Content="Hard" Canvas.Left="64" Canvas.Top="150"/>
+            <Label x:Name="Women_Grass_Label" Content="Grass" Canvas.Left="64" Canvas.Top="235"/>
+            <Label x:Name="Women_Clay_Label" Content="Clay" Canvas.Left="64" Canvas.Top="278"/>
+            <Label x:Name="Women_Hard_Label" Content="Hard" Canvas.Left="64" Canvas.Top="319"/>
+            <Label x:Name="Men_label" Content="Men" Canvas.Left="13" Canvas.Top="110" RenderTransformOrigin="0.969,0.624">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-89.89"/>
+                        <TranslateTransform X="-14.564" Y="-21.04"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="Women_Label" Content="Women" Canvas.Left="13" Canvas.Top="281" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-88.938"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+        </Canvas>
 
-        </Grid>
- </Window>
+    </Grid>
+</Window>
