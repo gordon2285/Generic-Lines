@@ -31,7 +31,6 @@
             <ComboBoxItem Content="Soccer" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="Tennis" HorizontalAlignment="Left" Width="118"/>
         </ComboBox>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="167.727,60.188,0,0" TextWrapping="Wrap" Text="Select a sport:" VerticalAlignment="Top" Width="120" TextAlignment="Right"/>
         <Canvas x:Name="Basketball_Panel" Margin="120.5,105,242,219" Width="400" Height="400">
             <Button x:Name="Basketball_LrgAwFav_LrgTot" Content="Large Away Fav /&#xA; High Total" HorizontalAlignment="Left" VerticalAlignment="Top" Width="183" Canvas.Left="10" Canvas.Top="38" Height="46"/>
             <Button x:Name="Basketball_LrgHmFav_LrgTot" Content="Large Home Fav /&#xA; High Total" Canvas.Left="214" Canvas.Top="38" Width="176" Height="46" RenderTransformOrigin="0.489,0.231" HorizontalAlignment="Center"/>
@@ -88,6 +87,7 @@
                 </Label.RenderTransform>
             </Label>
         </Canvas>
+        <Label Content="Select a sport:" HorizontalAlignment="Left" Margin="209,56,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
