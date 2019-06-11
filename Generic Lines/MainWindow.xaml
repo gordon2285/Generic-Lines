@@ -40,7 +40,7 @@
             <Button x:Name="Basketball_SmHmFav_LrgTot" Content="Small Home Fav /&#xA; High Total" Canvas.Left="214" Canvas.Top="162" Width="176"/>
             <Button x:Name="Basketball_SmAwFav_LowTot" Content="Small Away Fav /&#xA; Low Total" Canvas.Left="10" Canvas.Top="227" Width="183" RenderTransformOrigin="-0.066,0.488"/>
             <Button x:Name="Basketball_SmHmFav_LowTot" Content="Small Home Fav /&#xA; Low Total" Canvas.Left="214" Canvas.Top="227" Width="176" RenderTransformOrigin="0.036,0.531"/>
-        </Canvas>
+         </Canvas>
         <Canvas x:Name="Tennis_Panel" HorizontalAlignment="Left" Height="400" Margin="120,118,0,0" VerticalAlignment="Top" Width="400" RenderTransformOrigin="-0.048,0.026" Visibility="Hidden">
             <Button x:Name="Tennis_MGrass_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="63" Width="74" RenderTransformOrigin="-0.112,0.459"/>
             <Button x:Name="Tennis_MGrass_Avg" Content="Avg Match" Canvas.Left="210" Canvas.Top="63" Width="75" RenderTransformOrigin="0.359,-0.853"/>
@@ -87,7 +87,9 @@
                 </Label.RenderTransform>
             </Label>
         </Canvas>
-        <Label Content="Select a sport:" HorizontalAlignment="Left" Margin="209,56,0,0" VerticalAlignment="Top"/>
+        <Canvas Height="400" Width="400">
+        </Canvas>
+            <Label Content="Select a sport:" HorizontalAlignment="Left" Margin="209,56,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
