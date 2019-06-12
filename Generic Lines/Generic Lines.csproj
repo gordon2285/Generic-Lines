@@ -56,6 +56,9 @@
     </ApplicationDefinition>
     <Compile Include="AmericanFootballCalcs.cs" />
     <Compile Include="BasketballLinesCalcs.cs" />
+    <Compile Include="Basketball_Lines.xaml.cs">
+      <DependentUpon>Basketball_Lines.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SoccerLinesCalcs.cs" />
     <Compile Include="Soccer_Lines.xaml.cs">
       <DependentUpon>Soccer_Lines.xaml</DependentUpon>
@@ -64,6 +67,10 @@
     <Compile Include="Tennis_Lines.xaml.cs">
       <DependentUpon>Tennis_Lines.xaml</DependentUpon>
     </Compile>
+    <Page Include="Basketball_Lines.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

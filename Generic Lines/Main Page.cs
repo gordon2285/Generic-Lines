@@ -220,73 +220,73 @@ namespace Generic_Lines
         private void Basketball_SmHmFav_LoTot_Click(object sender, EventArgs e)
         {
             Basketball_Lines Basketball_Lines_Window;
-            Basketball_Lines_Windo = new Basketball_Lines();
-            Basketball_Lines_Windo.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(0, 20);
-            Basketball_Lines_Windo.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(220, 280);
-            Basketball_Lines_Windo.ShowDialog();
+            Basketball_Lines_Window = new Basketball_Lines();
+            Basketball_Lines_Window.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(0, 20);
+            Basketball_Lines_Window.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(220, 280);
+            Basketball_Lines_Window.ShowDialog();
         }
 
         private void Basketball_SmAwFav_LoTot_Click(object sender, EventArgs e)
         {
-            Basketball_Lines_Window Basketball_Lines;
-            Basketball_Lines = new Basketball_Lines_Window();
-            Basketball_Lines.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(-20, 0);
-            Basketball_Lines.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(220, 280);
-            Basketball_Lines.ShowDialog();
+            Basketball_Lines Basketball_Lines_Window;
+            Basketball_Lines_Window = new Basketball_Lines();
+            Basketball_Lines_Window.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(-20, 0);
+            Basketball_Lines_Window.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(220, 280);
+            Basketball_Lines_Window.ShowDialog();
         }
 
         private void Basketball_LrgHmFav_LoTot_Click(object sender, EventArgs e)
         {
-            Basketball_Lines_Window Basketball_Lines;
-            Basketball_Lines = new Basketball_Lines_Window();
-            Basketball_Lines.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(30, 80);
-            Basketball_Lines.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(220, 280);
-            Basketball_Lines.ShowDialog();
+            Basketball_Lines Basketball_Lines_Window;
+            Basketball_Lines_Window = new Basketball_Lines();
+            Basketball_Lines_Window.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(30, 80);
+            Basketball_Lines_Window.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(220, 280);
+            Basketball_Lines_Window.ShowDialog();
         }
 
         private void Basketball_LrgAwFav_LoTot_Click(object sender, EventArgs e)
         {
-            Basketball_Lines_Window Basketball_Lines;
-            Basketball_Lines = new Basketball_Lines_Window();
-            Basketball_Lines.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(-80, -30);
-            Basketball_Lines.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(220, 280);
-            Basketball_Lines.ShowDialog();
+            Basketball_Lines Basketball_Lines_Window;
+            Basketball_Lines_Window = new Basketball_Lines();
+            Basketball_Lines_Window.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(-80, -30);
+            Basketball_Lines_Window.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(220, 280);
+            Basketball_Lines_Window.ShowDialog();
         }
 
         private void Basketball_SmHmFav_HiTot_Click(object sender, EventArgs e)
         {
-            Basketball_Lines_Window Basketball_Lines;
-            Basketball_Lines = new Basketball_Lines_Window();
-            Basketball_Lines.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(0, 20);
-            Basketball_Lines.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(350, 430);
-            Basketball_Lines.ShowDialog();
+            Basketball_Lines Basketball_Lines_Window;
+            Basketball_Lines_Window = new Basketball_Lines();
+            Basketball_Lines_Window.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(0, 20);
+            Basketball_Lines_Window.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(350, 430);
+            Basketball_Lines_Window.ShowDialog();
         }
 
         private void Basketball_SmAwFav_HiTot_Click(object sender, EventArgs e)
         {
-            Basketball_Lines_Window Basketball_Lines;
-            Basketball_Lines = new Basketball_Lines_Window();
-            Basketball_Lines.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(-20, 0);
-            Basketball_Lines.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(350, 430);
-            Basketball_Lines.ShowDialog();
+            Basketball_Lines Basketball_Lines_Window;
+            Basketball_Lines_Window = new Basketball_Lines();
+            Basketball_Lines_Window.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(-20, 0);
+            Basketball_Lines_Window.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(350, 430);
+            Basketball_Lines_Window.ShowDialog();
         }
 
         private void Basketball_LrgHmFav_HiTot_Click(object sender, EventArgs e)
         {
-            Basketball_Lines_Window Basketball_Lines;
-            Basketball_Lines = new Basketball_Lines_Window();
-            Basketball_Lines.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(30, 100);
-            Basketball_Lines.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(350, 430);
-            Basketball_Lines.ShowDialog();
+            Basketball_Lines Basketball_Lines_Window;
+            Basketball_Lines_Window = new Basketball_Lines();
+            Basketball_Lines_Window.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(30, 100);
+            Basketball_Lines_Window.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(350, 430);
+            Basketball_Lines_Window.ShowDialog();
         }
 
         private void Basetball_LrgAwFav_HiTot_Click(object sender, EventArgs e)
         {
-            Basketball_Lines_Window Basketball_Lines;
-            Basketball_Lines = new Basketball_Lines_Window();
-            Basketball_Lines.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(-100, -30);
-            Basketball_Lines.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(350, 430);
-            Basketball_Lines.ShowDialog();
+            Basketball_Lines Basketball_Lines_Window;
+            Basketball_Lines_Window = new Basketball_Lines();
+            Basketball_Lines_Window.BasketballHandicapBox.Text = BasketballLinesCalcs.BasketballHandicap(-100, -30);
+            Basketball_Lines_Window.BasketballTotalBox.Text = BasketballLinesCalcs.BasketballTotal(350, 430);
+            Basketball_Lines_Window.ShowDialog();
         }
     }
 }

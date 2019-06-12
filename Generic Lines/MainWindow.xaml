@@ -26,20 +26,19 @@
         </Canvas>
         <ComboBox HorizontalAlignment="Left" Margin="292.727,60.188,0,0" VerticalAlignment="Top" Width="120">
             <ComboBoxItem Content="American Football" HorizontalAlignment="Left" Width="118"/>
-            <ComboBoxItem Content="Ausse Rules" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="Basketball" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="Soccer" HorizontalAlignment="Left" Width="118"/>
             <ComboBoxItem Content="Tennis" HorizontalAlignment="Left" Width="118"/>
         </ComboBox>
         <Canvas x:Name="Basketball_Panel" Margin="120.5,105,242,219" Width="400" Height="400">
-            <Button x:Name="Basketball_LrgAwFav_LrgTot" Content="Large Away Fav /&#xA; High Total" HorizontalAlignment="Left" VerticalAlignment="Top" Width="183" Canvas.Left="10" Canvas.Top="38" Height="46"/>
-            <Button x:Name="Basketball_LrgHmFav_LrgTot" Content="Large Home Fav /&#xA; High Total" Canvas.Left="214" Canvas.Top="38" Width="176" Height="46" RenderTransformOrigin="0.489,0.231" HorizontalAlignment="Center"/>
-            <Button x:Name="Basketball_LrgAwFav_LowTot" Content="Large Away Fav /&#xA; Low Total" Canvas.Left="10" Canvas.Top="99" Width="183"/>
-            <Button x:Name="Basketball_LrgHmFav_LowTot" Content="Large Home Fav /&#xA; Low Total" Canvas.Left="214" Canvas.Top="99" Width="176"/>
-            <Button x:Name="Basketball_SmAwFav_LrgTot" Content="Small Away Fav /&#xA; High Total" Canvas.Left="10" Canvas.Top="162" Width="183"/>
-            <Button x:Name="Basketball_SmHmFav_LrgTot" Content="Small Home Fav /&#xA; High Total" Canvas.Left="214" Canvas.Top="162" Width="176"/>
-            <Button x:Name="Basketball_SmAwFav_LowTot" Content="Small Away Fav /&#xA; Low Total" Canvas.Left="10" Canvas.Top="227" Width="183" RenderTransformOrigin="-0.066,0.488"/>
-            <Button x:Name="Basketball_SmHmFav_LowTot" Content="Small Home Fav /&#xA; Low Total" Canvas.Left="214" Canvas.Top="227" Width="176" RenderTransformOrigin="0.036,0.531"/>
+            <Button x:Name="Basketball_LrgAwFav_HiTot" Content="Large Away Fav /&#xA; High Total" HorizontalAlignment="Left" VerticalAlignment="Top" Width="183" Canvas.Left="10" Canvas.Top="38" Height="46"/>
+            <Button x:Name="Basketball_LrgHmFav_HiTot" Content="Large Home Fav /&#xA; High Total" Canvas.Left="214" Canvas.Top="38" Width="176" Height="46" RenderTransformOrigin="0.489,0.231" HorizontalAlignment="Center"/>
+            <Button x:Name="Basketball_LrgAwFav_LoTot" Content="Large Away Fav /&#xA; Low Total" Canvas.Left="10" Canvas.Top="99" Width="183"/>
+            <Button x:Name="Basketball_LrgHmFav_LoTot" Content="Large Home Fav /&#xA; Low Total" Canvas.Left="214" Canvas.Top="99" Width="176"/>
+            <Button x:Name="Basketball_SmAwFav_HiTot" Content="Small Away Fav /&#xA; High Total" Canvas.Left="10" Canvas.Top="162" Width="183"/>
+            <Button x:Name="Basketball_SmHmFav_HiTot" Content="Small Home Fav /&#xA; High Total" Canvas.Left="214" Canvas.Top="162" Width="176"/>
+            <Button x:Name="Basketball_SmAwFav_LoTot" Content="Small Away Fav /&#xA; Low Total" Canvas.Left="10" Canvas.Top="227" Width="183" RenderTransformOrigin="-0.066,0.488"/>
+            <Button x:Name="Basketball_SmHmFav_LoTot" Content="Small Home Fav /&#xA; Low Total" Canvas.Left="214" Canvas.Top="227" Width="176" RenderTransformOrigin="0.036,0.531"/>
          </Canvas>
         <Canvas x:Name="Tennis_Panel" HorizontalAlignment="Left" Height="400" Margin="120,118,0,0" VerticalAlignment="Top" Width="400" RenderTransformOrigin="-0.048,0.026" Visibility="Hidden">
             <Button x:Name="Tennis_MGrass_P1" Content="P1 Big Fav" Canvas.Left="114" Canvas.Top="63" Width="74" RenderTransformOrigin="-0.112,0.459"/>
@@ -87,9 +86,7 @@
                 </Label.RenderTransform>
             </Label>
         </Canvas>
-        <Canvas Height="400" Width="400">
-        </Canvas>
-            <Label Content="Select a sport:" HorizontalAlignment="Left" Margin="209,56,0,0" VerticalAlignment="Top"/>
+        <Label Content="Select a sport:" HorizontalAlignment="Left" Margin="209,56,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
