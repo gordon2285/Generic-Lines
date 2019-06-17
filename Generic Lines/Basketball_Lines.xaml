@@ -3,20 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Generic_Lines"
         mc:Ignorable="d"
-        Title="Basketball_Lines" Height="270" Width="405">
+        Title="Basketball Lines" Height="270" Width="405">
     <Grid Margin="0,0,-8,-1">
-        <Label x:Name="Hnadicap_Label" Content="Handicap:" HorizontalAlignment="Left" Margin="37,54,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Handicap_Label" Content="Handicap:" HorizontalAlignment="Left" Margin="37,54,0,0" VerticalAlignment="Top"/>
         <Label x:Name="Total_Label" Content="Total:" HorizontalAlignment="Left" Margin="218,54,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Home_Team_label" Content="Home Team" HorizontalAlignment="Left" Margin="27,104,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Away_Team_Label" Content="Away Team" HorizontalAlignment="Left" Margin="31,150,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Over_Label" Content="Over" HorizontalAlignment="Left" Margin="221,102,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Home_Team_label" Content="Team 1" HorizontalAlignment="Left" Margin="31,100,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Away_Team_Label" Content="Team 2" HorizontalAlignment="Left" Margin="31,150,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Over_Label" Content="Over" HorizontalAlignment="Left" Margin="221,100,0,0" VerticalAlignment="Top"/>
         <Label x:Name="Under_Label" Content="Under" HorizontalAlignment="Left" Margin="213,150,0,0" VerticalAlignment="Top" Cursor=""/>
         <TextBox x:Name="BasketballHandicapBox" HorizontalAlignment="Left" Height="20" Margin="100,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62"/>
         <TextBox x:Name="BasketballTotalBox" HorizontalAlignment="Left" Height="20" Margin="256,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79" RenderTransformOrigin="0.197,0.663"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="100,105,0,0" TextWrapping="Wrap" Text="1.9" VerticalAlignment="Top" Width="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-        <TextBox HorizontalAlignment="Left" Height="20" Margin="100,153,0,0" TextWrapping="Wrap" Text="1.9" VerticalAlignment="Top" Width="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="100,100,0,0" TextWrapping="Wrap" Text="1.9" VerticalAlignment="Top" Width="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="100,150,0,0" TextWrapping="Wrap" Text="1.9" VerticalAlignment="Top" Width="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <TextBox HorizontalAlignment="Left" Height="20" Margin="256,102,0,0" TextWrapping="Wrap" Text="1.9" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.398,0.36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <TextBox HorizontalAlignment="Left" Height="20" Margin="256,154,0,0" TextWrapping="Wrap" Text="1.9" VerticalAlignment="Top" Width="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
